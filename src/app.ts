@@ -3,6 +3,7 @@ import * as bodyParser from 'body-parser';
 import config from './config/main';
 import routes from './routes';
 import { defaultErrorHandler } from './lib/default-error.handler';
+import * as mongoose from 'mongoose';
 
 // init express
 const app: express.Application = express();
@@ -15,5 +16,12 @@ routes(app);
 
 // Error handlers
 app.use(defaultErrorHandler);
+
+mongoose.connect(config.mongodb);
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', () => {
+  console.log('connected to mongodb');
+});
 
 export default app;

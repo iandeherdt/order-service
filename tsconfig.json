@@ -4,7 +4,7 @@
     "declaration": false,
     "target": "es2017",
     "moduleResolution": "node",
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "sourceMap": false,
     "outDir": "./build",
     "rootDir": "./src",
@@ -25,6 +25,7 @@
   },
   "exclude": [
     "node_modules",
-    "build"
+    "build",
+    "tests"
   ]
 }

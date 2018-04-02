@@ -13,12 +13,14 @@
   },
   "dependencies": {
     "@types/boom": "^7.2.0",
+    "@types/mongoose": "^5.0.7",
     "body-parser": "1.18.2",
     "boom": "^7.2.0",
     "dotenv-safe": "4.0.4",
     "express": "4.16.2",
     "express-validation": "^1.0.2",
     "joi": "^13.1.2",
+    "mongoose": "^5.0.12",
     "winston": "2.4.0"
   },
   "devDependencies": {

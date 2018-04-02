@@ -1,10 +1,8 @@
 import { Request, Response } from 'express';
-import { logger } from './logger';
 import * as boom from 'boom';
 
-export function defaultErrorHandler(err: any, _req: Request, res: Response, next: any) {
+export function defaultErrorHandler(err: any, _req: Request, res: Response) {
 
-  logger.error(err);
   if (!err.isBoom && err.status === 400) {
     return res.status(400).json(err.errors);
   }
