@@ -15,5 +15,15 @@ export const validOrder: Order = {
   reference: 'REF567',
   billingAddress: validAddress,
   shippingAddress: validAddress,
+  orderLines: [{
+    recipes: [{
+      flavours:[
+        {
+          flavour: { id: 1, name: 'cinnamon' },
+          intensity: 5,
+        },
+      ],
+    }],
+  }],
   status: 'processing',
 };

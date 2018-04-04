@@ -12,11 +12,25 @@ const addressDefinition = {
   country: String,
 };
 
+const orderLineDefinition = {
+  _id:false,
+  amount: Number,
+  recipes: [{
+    _id:false,
+    flavours: [{
+      _id:false,
+      flavour: { id: Number, name: String },
+      intensity: Number,
+    }],
+  }],
+};
+
 const orderSchema: Schema = new Schema({
   customer: String,
   reference: String,
   billingAddress: addressDefinition,
   shippingAddress: addressDefinition,
+  orderLines: [orderLineDefinition],
   status: String,
 });
 
