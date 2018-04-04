@@ -17,31 +17,31 @@ const flavours = [
     botanicals: [
       {
         id: 1,
-        name: 'lemon zest\r\n',
+        name: 'lemon zest',
       },
       {
         id: 2,
-        name: 'lemon grass\r\n',
+        name: 'lemon grass',
       },
       {
         id: 3,
-        name: 'seville orange zest\r\n',
+        name: 'seville orange zest',
       },
       {
         id: 4,
-        name: 'kaffir lime\r\n',
+        name: 'kaffir lime',
       },
       {
         id: 5,
-        name: 'grapefruit zest\r\n',
+        name: 'grapefruit zest',
       },
       {
         id: 6,
-        name: 'lime zest\r\n',
+        name: 'lime zest',
       },
       {
         id: 7,
-        name: 'sweet orange zest\r\n',
+        name: 'sweet orange zest',
       },
     ],
   },
@@ -51,7 +51,7 @@ const flavours = [
     botanicals: [
       {
         id: 9,
-        name: 'rose petals\r\n',
+        name: 'rose petals',
       },
       {
         id: 10,
@@ -59,35 +59,35 @@ const flavours = [
       },
       {
         id: 11,
-        name: 'chamomile\r\n',
+        name: 'chamomile',
       },
       {
         id: 12,
-        name: 'rose hip\r\n',
+        name: 'rose hip',
       },
       {
         id: 13,
-        name: '\r\nlavender',
+        name: 'lavender',
       },
       {
         id: 14,
-        name: 'lemon balm\r\n',
+        name: 'lemon balm',
       },
       {
         id: 15,
-        name: 'pot marigold\r\n',
+        name: 'pot marigold',
       },
       {
         id: 16,
-        name: 'elder blossom\r\n',
+        name: 'elder blossom',
       },
       {
         id: 17,
-        name: 'orange blossom\r\n',
+        name: 'orange blossom',
       },
       {
         id: 19,
-        name: '\r\npoppy',
+        name: 'poppy',
       },
     ],
   },
@@ -97,11 +97,11 @@ const flavours = [
     botanicals: [
       {
         id: 21,
-        name: 'elderberry\r\n',
+        name: 'elderberry',
       },
       {
         id: 22,
-        name: 'hawthorn berry\r\n',
+        name: 'hawthorn berry',
       },
       {
         id: 23,
@@ -127,7 +127,7 @@ const flavours = [
       },
       {
         id: 31,
-        name: 'cilantro\r\n',
+        name: 'cilantro',
       },
       {
         id: 32,
@@ -139,11 +139,11 @@ const flavours = [
       },
       {
         id: 34,
-        name: 'hawthorn berry\r\n',
+        name: 'hawthorn berry',
       },
       {
         id: 63,
-        name: '\r\nblessed thistle',
+        name: 'blessed thistle',
       },
     ],
   },
@@ -161,11 +161,11 @@ const flavours = [
       },
       {
         id: 38,
-        name: 'young pine buds\r\n',
+        name: 'young pine buds',
       },
       {
         id: 39,
-        name: 'young pine needles\r\n',
+        name: 'young pine needles',
       },
     ],
   },
@@ -179,23 +179,23 @@ const flavours = [
       },
       {
         id: 42,
-        name: 'cardamom\r\n',
+        name: 'cardamom',
       },
       {
         id: 43,
-        name: 'cassia bark\r\n',
+        name: 'cassia bark',
       },
       {
         id: 44,
-        name: 'frankincense\r\n',
+        name: 'frankincense',
       },
       {
         id: 45,
-        name: 'myrrh\r\n',
+        name: 'myrrh',
       },
       {
         id: 46,
-        name: 'dragon blood\r\n',
+        name: 'dragon blood',
       },
       {
         id: 47,
@@ -203,7 +203,7 @@ const flavours = [
       },
       {
         id: 49,
-        name: 'clove\r\n',
+        name: 'clove',
       },
     ],
   },
@@ -213,31 +213,31 @@ const flavours = [
     botanicals: [
       {
         id: 50,
-        name: 'allspice\r\n',
+        name: 'allspice',
       },
       {
         id: 51,
-        name: 'pink pepper\r\n',
+        name: 'pink pepper',
       },
       {
         id: 53,
-        name: 'timut pepper\r\n',
+        name: 'timut pepper',
       },
       {
         id: 54,
-        name: 'grains of selim\r\n',
+        name: 'grains of selim',
       },
       {
         id: 55,
-        name: 'grains of paradise\r\n',
+        name: 'grains of paradise',
       },
       {
         id: 56,
-        name: 'cubed berry\r\n',
+        name: 'cubed berry',
       },
       {
         id: 57,
-        name: 'szechuan pepper\r\n',
+        name: 'szechuan pepper',
       },
     ],
   },
