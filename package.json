@@ -9,7 +9,8 @@
     "build": "yarn clean && yarn tslint && tsc",
     "clean": "rm -rf ./build",
     "tslint": "tslint -c tslint.json -p tsconfig.json",
-    "test": "jest --maxWorkers=1 --forceExit"
+    "test": "jest --maxWorkers=1 --forceExit",
+    "postinstall": "yarn build"
   },
   "dependencies": {
     "@types/body-parser": "~1.16.8",
