@@ -19,7 +19,6 @@ export default Router({ mergeParams: true })
       const result = await updateOrder(req.params.id, req.body);
       res.json(result);
     } catch (err) {
-      console.log(err);
       next(err);
     }
   },
